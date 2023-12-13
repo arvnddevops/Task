@@ -18,6 +18,8 @@ The workflow involves separate servers for Jenkins and Tomcat:
    - Build the code using Maven.
    - Generate a deployable WAR file.
    - Deploy the WAR file to the Tomcat 9 server.
+3. **Use the below code to build**
+   - https://github.com/arvnddevops/webapp1.git 
 
 **Process Overview:**
 We anticipate the CI/CD process to involve the following steps:
