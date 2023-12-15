@@ -2,11 +2,12 @@ Subject: Request to Set Up CI/CD Pipeline using Jenkins for Deployment on Tomcat
 
 Dear DevOps Team,
 
-We are in need of setting up a robust Continuous Integration and Continuous Deployment (CI/CD) pipeline using Jenkins for our project.
+We need to set up a robust Continuous Integration and Continuous Deployment (CI/CD) pipeline using Jenkins for our project.
 
 Here are the details for the pipeline setup:
 
 GitHub Repository URL: https://github.com/arvnddevops/webapp1.git
+
 Deployment Target: Tomcat 9
 
 CI/CD Pipeline Requirements:
