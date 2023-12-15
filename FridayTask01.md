@@ -10,7 +10,7 @@ GitHub Repository URL: https://github.com/arvnddevops/webapp1.git
 
 Deployment Target: Tomcat 9
 
-CI/CD Pipeline Requirements:
+**CI/CD Pipeline Requirements:**
 Integration of the provided GitHub repository with Jenkins for automated builds.
 Configuring Jenkins to perform builds upon code commits to the main branch.
 Deployment of the built artifacts to the Tomcat 9 server.
@@ -18,7 +18,7 @@ Deployment of the built artifacts to the Tomcat 9 server.
 Server Maintenance Request:
 Additionally, we have a pending server maintenance request from the Infrastructure team, which requires a reboot of the Jenkins and Tomcat installed servers after the current deployment is complete.
 
-Bug Fix Deployment:
+**Bug Fix Deployment:**
 In case of any identified bugs in the deployed code, the Development team might push code fixes to the repository. We kindly request that the existing CI/CD pipeline be utilized to deploy the updated code onto the server without interrupting the current workflow.
 
 Your support in setting up this CI/CD pipeline and addressing the server maintenance requirements would be greatly appreciated. Kindly let us know if any further information or access is needed from our end to facilitate this process.
