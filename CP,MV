@@ -1,0 +1,42 @@
+1. Organizing Project Files
+Scenario: You’re working on a project and need to organize files by copying them to different folders.
+Task:
+
+In your project directory, copy index.html, style.css, and app.js from ~/projects/myapp to the ~/projects/myapp/backup directory using cp.
+Then, move the index.html file from the backup folder back to the project folder using mv.
+
+2. Backup of Documents
+Scenario: You want to create a backup of some important files.
+Task:
+
+Copy all .txt files from /home/user/documents to /home/user/documents/backup using the cp command with a wildcard (*.txt).
+Once you’ve verified the copy, move the original .txt files to a new directory /home/user/documents/archived using the mv command.
+
+3. Renaming and Moving Files
+Scenario: You need to rename a file and move it to another directory for better organization.
+Task:
+
+Move the file project_report.docx from the ~/documents directory to ~/documents/reports using mv.
+Rename the file to project_report_2024.docx during the move.
+
+4. Copying Directory with Contents
+Scenario: You want to copy an entire directory (including subdirectories and files) to a new location.
+Task:
+
+Copy the ~/projects/myapp directory and all its contents to ~/projects/myapp_backup using the cp -r command.
+Once you’ve verified the backup, move the backup directory to a different folder, such as /mnt/backup/myapp_backup, using the mv command.
+
+
+5. Reorganizing Files After Download
+Scenario: You’ve downloaded multiple files into your Downloads folder and want to organize them into appropriate subfolders.
+Task:
+
+Move all .pdf files from ~/Downloads to ~/Documents/pdfs using the mv command.
+Copy a specific .mp4 file from ~/Downloads to ~/Videos using cp.
+
+6. Move and Copy Multiple Files
+Scenario: You have multiple files in a directory, and you want to copy some and move others.
+Task:
+
+Copy all .jpg images from the ~/Pictures folder to the ~/Pictures/backup folder using the cp command.
+Move all .png images from ~/Pictures to ~/Pictures/old_images using the mv command.
