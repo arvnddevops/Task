@@ -1,0 +1,30 @@
+1. Create New Files for a Project
+Scenario: You are working on a software project and need to create empty files to start coding.
+Task:
+
+Navigate to your project directory, e.g., ~/projects/myapp.
+Create three empty files: index.html, styles.css, and app.js using the touch command.
+
+2. Organize Directories for a Web Application
+Scenario: You're setting up the folder structure for a web application.
+Task:
+
+Create a directory structure under ~/webapp:
+html, css, and js directories inside ~/webapp.
+Use mkdir to create each folder.
+
+3. Backup File Creation
+Scenario: You are backing up old files to create a timestamped backup folder.
+Task:
+
+Navigate to /home/user/documents.
+Create a new directory called backup_$(date +%F) using mkdir to include the current date in the folder name.
+Inside this directory, create three files: backup1.txt, backup2.txt, and backup3.txt using the touch command.
+
+4. Create a Log Directory Structure for an App
+Scenario: You're setting up directories to store logs for a new application.
+Task:
+
+Create a directory named logs in the current directory using mkdir.
+Inside the logs directory, create subdirectories: info, error, and debug.
+Afterward, use touch to create empty log files: info.log, error.log, and debug.log in their respective directories.
