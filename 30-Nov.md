@@ -3,10 +3,10 @@ Imagine you’re a landlord deciding who can enter (read), renovate (write), or 
 
 **Task:**
 
-**Create a file named house_plan.txt using touch.
+Create a file named house_plan.txt using touch.
 Set the permissions to allow only the owner to view and modify the file.
 Change it so the group can also view but not modify it.
-Allow everyone to execute the file (symbolic method).**
+Allow everyone to execute the file (symbolic method).
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 mkdir: Making Directories
 Building rooms in a house. Each room has a specific purpose.
